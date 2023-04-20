@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+.container {
+    font-size: 100% auto;
+    background-color: aqua;
+    width: 10%;
+    height: 10%;
+}
