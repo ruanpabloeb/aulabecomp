@@ -1,0 +1,50 @@
+.papirozero{
+    display: flex;
+    background-color: brown;
+    padding-left: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    
+}
+.luau{
+    display: flex;
+    background-color: white;
+    padding-left: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%; }
+.imejam{
+    display: flex;
+    background-color: brown;
+    padding-left: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%; }
+.texto1{
+    flex: 1;
+    font-family: 'Graduate', sans-serif;
+    font-size: 80%;                                         
+}
+@media all and (min-width:480px) {
+    .texto1{
+        font-size:90%;
+    }
+}
+@media all and (min-width:630px) {
+    .texto1{
+        font-size:95%;
+    }
+}
+@media all and (min-width:768px) {
+    .texto1{
+        font-size:100%;
+    }
+}
+@media all and (min-width:896px) {
+    .texto1{
+        font-size:110%;
+    }
+}
+@media all and (min-width:1200px) {
+    .texto1{
+        font-size:120%;
+    }
+}

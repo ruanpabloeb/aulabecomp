@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+html,body{
+    height: 100%;
+}
+.menu table {
+    width: 100%;
+    padding-right: 10%;
+    font-family:  calibri;
+    background-color: black;
+    text-align: right;
+}
+.imagemgrifo {
+    padding-top: 3%;
+    text-align: left;
+}
+.opcoes {
+    width: 15%;
+    font-size:80%;
+    padding-right: 100%;
+    }
+.insta {
+    padding-top: 1%;
+}
+.principal{
+    position: relative;
+}
+.principal .fundo{
+    opacity: 0.2;
+}
+.principal .meio{
+    position: absolute;
+    top:15%;
+    text-align: center;
+}
+.principal .meio .palavras{
+    padding-top: 2%;
+    padding-right: 2%;
+    font-family: "arial black";
+    font-size: 70%;
+}
+.rodape {
+    font-size: 70%;
+    font-family: "arial black";
+    margin: 0%;
+    padding-top:7%;
+    text-align: center;
+    background-color: brown;
+    width: 100%;
+}
+.rodape .textrodape {
+    padding-right:3%;
+    padding-left:3%;
+}
+@media all and (min-width:480px){
+    .opcoes {
+        width: 15%;
+        font-size:95%;
+        padding-right: 100%;
+        }
+    .principal .meio .palavras{
+        font-size: 80%;
+    }
+    .rodape{
+        font-size: 80%;
+    }
+}
+@media all and (min-width:630px){
+    .opcoes {
+        width: 15%;
+        font-size:110%;
+        padding-right: 100%;
+        }
+    .principal .meio .palavras{
+        font-size: 88%;
+    }
+    .rodape{
+        font-size: 90%;
+    }
+}
+@media all and (min-width:768px){
+    .opcoes {
+        width: 15%;
+        font-size:125%;
+        padding-right: 100%;
+        }
+    .principal .meio .palavras{
+        font-size: 100%;
+    }
+    .rodape{
+        font-size: 100%;
+    }
+}
+@media all and (min-width:896px){
+    .opcoes {
+        width: 15%;
+        font-size:140%;
+        padding-right: 100%;
+        }
+    .principal .meio .palavras{
+        font-size: 130%;
+    }
+    .rodape{
+        font-size: 120%;
+    }
+}
+@media all and (min-width:1200px){
+    .opcoes {
+        width: 15%;
+        font-size:160%;
+        padding-right: 100%;
+        }
+    .principal .meio .palavras{
+        font-size: 180%;
+    }
+    .rodape{
+        font-size: 140%;
+    }
+}
